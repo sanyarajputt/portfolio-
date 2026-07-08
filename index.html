@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanya Rajput — AI/ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">sanya<span class="dot">.</span>rajput</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#experience">experience</a>
+      <a href="#leadership">leadership</a>
+      <a href="#skills">skills</a>
+      <a href="#contact" class="nav-cta">contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-bg" id="graphCanvas"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">// portfolio — 2026</p>
+    <h1 class="hero-name">Sanya Rajput</h1>
+    <div class="hero-role">
+      <span class="prompt" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Z" fill="currentColor"/>
+          <circle cx="12" cy="9" r="2.5" fill="#0B1620"/>
+        </svg>
+      </span>
+      <span id="typedRole" class="typed-role"></span><span class="cursor">▌</span>
+    </div>
+    <p class="hero-desc">
+      Building agentic AI systems — currently a B.E. Electronics &amp; Computer Engineering student
+      at Thapar Institute of Engineering and Technology. I like turning
+      messy, real-world problems into orchestrated, well-grounded pipelines.
+    </p>
+    <div class="hero-actions">
+      <a href="./Sanya_Rajput_Resume.pdf" class="btn btn-primary" download>Download résumé</a>
+      <a href="#" class="btn btn-ghost" id="githubLink">GitHub</a>
+      <a href="#" class="btn btn-ghost" id="linkedinLink">LinkedIn</a>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</header>
+
+<!-- ABOUT (paper section) -->
+<section class="about" id="about">
+  <div class="paper-texture"></div>
+  <div class="section-inner about-grid">
+    <div class="about-copy">
+      <p class="section-label section-label--paper">the person behind the pipelines</p>
+      <h2 class="about-heading">One degree, one obsession: <em>making systems reason well.</em></h2>
+      <p class="about-text">
+        I'm an Electronics &amp; Computer Engineering student at Thapar Institute — which mostly
+        means I spend my days moving between hardware-level thinking and the messiness of large
+        language models. I got here the long way: debugging
+        C++ drone-routing logic taught me to respect edge cases, and building multi-agent systems
+        taught me that most "AI problems" are actually grounding problems in disguise.
+      </p>
+      <p class="about-text">
+        Outside of code, I run outreach for TEDxTIET, which means spreadsheets, cold emails, and
+        50+ juniors relying on me to not drop the ball. It's not that different from orchestrating
+        agents, honestly — someone still has to keep the whole thing from falling apart.
+      </p>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">juniors led at TEDxTIET</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10k+</span>
+          <span class="stat-label">records processed &amp; validated</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">84%</span>
+          <span class="stat-label">CNN classification accuracy</span>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <p class="section-label">selected work</p>
+    <h2 class="section-heading">Projects</h2>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="https://placehold.co/640x400/12212E/5EEAD4?text=SBI+Nexus" alt="SBI Nexus screenshot">
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">SBI Nexus</h3>
+          <p class="project-sub">Multi-agent AI relationship manager for banking (currently building)</p>
+          <p class="project-desc">
+            A 6-agent GenAI system built in LangGraph that automates banking relationship
+            management ,one agent handles customer queries, the other generates grounded
+            product recommendations via RAG over customer and product data.
+          </p>
+          <ul class="project-points">
+            <li>Architected a LangGraph MVP with query-handling and recommendation agents</li>
+            <li>Applied RAG to reduce hallucinated recommendations</li>
+            <li>SQLite persistence + Streamlit UI for live agent-decision demos</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">LangGraph</span>
+            <span class="tag">RAG</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Streamlit</span>
+          </div>
+          <a href="#" class="project-link">view repo →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="https://placehold.co/640x400/12212E/FF6B4A?text=Image+Dehazing" alt="Image dehazing pipeline screenshot">
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Image Dehazing &amp; Classification</h3>
+          <p class="project-sub">End-to-end deep learning pipeline</p>
+          <p class="project-desc">
+            A CNN pipeline that cleans up hazy images before classifying them — built to
+            handle 10,000+ images with a full preprocessing, dehazing, and augmentation
+            stage ahead of the model.
+          </p>
+          <ul class="project-points">
+            <li>Engineered preprocessing, dehazing, normalization &amp; augmentation stages</li>
+            <li>Trained and tuned a CNN to 84% accuracy across iterations</li>
+            <li>Evaluated robustness against validation metrics at every stage</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">NumPy</span>
+          </div>
+          <a href="#" class="project-link">view repo →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="https://placehold.co/640x400/12212E/E8EDF0?text=LibDesk" alt="LibDesk dashboard screenshot">
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">LibDesk</h3>
+          <p class="project-sub">Smart library seat management system</p>
+          <p class="project-desc">
+            A real-time seat management system for campus libraries, with QR-based check-in
+            and an admin dashboard for tracking occupancy as it happens.
+          </p>
+          <ul class="project-points">
+            <li>QR-based authentication with real-time seat-availability tracking</li>
+            <li>RESTful APIs for booking, allocation &amp; automated session expiry</li>
+            <li>Chart.js dashboard surfacing occupancy KPIs &amp; utilization analytics</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="#" class="project-link">view repo →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experience">
+  <div class="section-inner">
+    <p class="section-label">work</p>
+    <h2 class="section-heading">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Data Processing Intern</h3>
+            <span class="timeline-date">Mar 2025 – Apr 2025</span>
+          </div>
+          <p class="timeline-org">Revisable AI · Remote</p>
+          <ul>
+            <li>Processed and validated 10,000+ data records across LLM training and prompt-evaluation workflows</li>
+            <li>Automated AI data pipelines with Python, cutting manual processing effort by 30%</li>
+            <li>Designed data-validation strategies that reduced erroneous model responses by 15%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="leadership" id="leadership">
+  <div class="section-inner leadership-grid">
+    <div>
+      <p class="section-label">beyond the code</p>
+      <h2 class="section-heading">Leadership &amp; Impact</h2>
+
+      <div class="role-card">
+        <div class="role-head">
+          <h3>Events and Outreach Head</h3>
+          <span class="role-date">Sept 2023 – Present</span>
+        </div>
+        <p class="role-org">TEDxTIET · Patiala</p>
+        <p>Manage speaker, sponsor, and partner outreach to execute large-scale campus events — leading a team of 50+ juniors.</p>
+      </div>
+
+      <div class="role-card">
+        <div class="role-head">
+          <h3>Senior Outreach Executive</h3>
+          <span class="role-date">2024 – 2025</span>
+        </div>
+        <p class="role-org">Saturnalia · Patiala</p>
+        <p>Executed outreach and partnership initiatives generating ₹1.5 lakh in participation revenue through registrations and engagement.</p>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <p class="section-label">toolkit</p>
+    <h2 class="section-heading">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>// languages</h4>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">C++</span><span class="tag">SQL</span><span class="tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>// ai &amp; genai</h4>
+        <div class="tag-row">
+          <span class="tag">LLMs</span><span class="tag">Generative AI</span><span class="tag">Agentic &amp; Multi-Agent Systems</span><span class="tag">RAG</span><span class="tag">Prompt Engineering</span><span class="tag">Machine Learning</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>// frameworks &amp; libraries</h4>
+        <div class="tag-row">
+          <span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">Flask</span><span class="tag">Streamlit</span><span class="tag">TensorFlow</span><span class="tag">Scikit-learn</span><span class="tag">OpenCV</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">PySpark</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>// databases</h4>
+        <div class="tag-row">
+          <span class="tag">MySQL</span><span class="tag">SQLite</span><span class="tag">Vector Databases</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>// cloud &amp; tools</h4>
+        <div class="tag-row">
+          <span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">REST APIs</span><span class="tag">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer class="contact" id="contact">
+  <div class="section-inner contact-inner">
+    <p class="section-label">$ whoami --contact</p>
+    <h2 class="contact-heading">Let's build something that reasons well.</h2>
+    <div class="contact-links">
+      <a href="mailto:rajputsanya031@gmail.com" class="contact-link">rajputsanya031@gmail.com</a>
+      <a href="tel:+919750200031" class="contact-link">+91-97502-00031</a>
+    </div>
+    <div class="hero-actions contact-actions">
+      <a href="./Sanya_Rajput_Resume.pdf" class="btn btn-primary" download>Download résumé</a>
+      <a href="#" class="btn btn-ghost" id="githubLink2">GitHub</a>
+      <a href="#" class="btn btn-ghost" id="linkedinLink2">LinkedIn</a>
+    </div>
+    <p class="footer-note">Patiala, India · Built by Sanya Rajput</p>
+    <p class="visit-counter" id="visitCounter" aria-live="polite">
+      <span class="counter-dot"></span> counting visits…
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
